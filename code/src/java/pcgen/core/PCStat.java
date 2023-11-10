@@ -19,6 +19,7 @@ package pcgen.core;
 
 import java.util.Optional;
 
+import org.checkerframework.checker.optional.qual.Present;
 import pcgen.base.formula.base.VarScoped;
 import pcgen.cdom.base.NonInteractive;
 import pcgen.cdom.base.SortKeyRequired;
@@ -37,7 +38,7 @@ public final class PCStat extends PObject
 	}
 
 	@Override
-	public Optional<String> getLocalScopeName()
+	public @Present Optional<String> getLocalScopeName()
 	{
 		return Optional.of("PC.STAT");
 	}

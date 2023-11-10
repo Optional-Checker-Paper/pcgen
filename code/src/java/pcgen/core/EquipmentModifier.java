@@ -22,6 +22,7 @@ import java.util.List;
 import java.util.Optional;
 import java.util.regex.Pattern;
 
+import org.checkerframework.checker.optional.qual.Present;
 import pcgen.base.formula.Formula;
 import pcgen.base.formula.base.VarScoped;
 import pcgen.base.lang.StringUtil;
@@ -290,7 +291,7 @@ public final class EquipmentModifier extends PObject implements Comparable<Objec
 	}
 
 	@Override
-	public Optional<String> getLocalScopeName()
+	public @Present Optional<String> getLocalScopeName()
 	{
 		return Optional.of(EquipmentPartScope.PC_EQUIPMENT_PART);
 	}

@@ -128,10 +128,13 @@ public class GroupFunction implements FormulaFunction
 		LoadContext context = manager.get(ManagerKey.CONTEXT);
 		PCGenScope scope = context.getVariableContext().getScope(scopeName);
 		//Was checked in allowArgs
-		@SuppressWarnings("unchecked")
-		ReferenceManufacturer<? extends PCGenScoped> refMfg =
-				(ReferenceManufacturer<? extends PCGenScoped>) scope
-					.getFormatManager(context).get();
+//		@SuppressWarnings("unchecked")
+//		ReferenceManufacturer<? extends PCGenScoped> refMfg =
+//				(ReferenceManufacturer<? extends PCGenScoped>) scope
+//					.getFormatManager(context).get();
+		Optional<FormatManager<?>> optFormatManager = scope.getFormatManager(context);
+		@SuppressWarnings("method.invocation") // application-invariant : checked for empty earlier.
+		ReferenceManufacturer<? extends PCGenScoped> refMfg = (ReferenceManufacturer<? extends PCGenScoped>) optFormatManager.get();
 
 		String groupingName = (String) args[1].jjtAccept(visitor,
 			manager.getWith(EvaluationManager.ASSERTED,

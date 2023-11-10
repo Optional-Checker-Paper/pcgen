@@ -20,6 +20,7 @@ package pcgen.cdom.format.table;
 import java.util.Objects;
 import java.util.Optional;
 
+import org.checkerframework.checker.optional.qual.Present;
 import pcgen.base.util.FormatManager;
 import pcgen.base.util.Indirect;
 import pcgen.base.util.ValueStore;
@@ -94,7 +95,7 @@ public class ColumnFormatManager<T> implements FormatManager<TableColumn>
 	}
 
 	@Override
-	public Optional<FormatManager<?>> getComponentManager()
+	public @Present Optional<FormatManager<?>> getComponentManager()
 	{
 		return Optional.of(underlying);
 	}

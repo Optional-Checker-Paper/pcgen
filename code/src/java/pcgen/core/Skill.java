@@ -24,6 +24,7 @@ import java.util.Comparator;
 import java.util.List;
 import java.util.Optional;
 
+import org.checkerframework.checker.optional.qual.Present;
 import pcgen.base.formula.Formula;
 import pcgen.base.formula.base.VarScoped;
 import pcgen.cdom.base.ChooseDriver;
@@ -157,7 +158,7 @@ public final class Skill extends PObject implements ChooseDriver, VarScoped
 	}
 
 	@Override
-	public Optional<String> getLocalScopeName()
+	public @Present Optional<String> getLocalScopeName()
 	{
 		return Optional.of("PC.SKILL");
 	}

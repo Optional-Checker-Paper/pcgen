@@ -20,6 +20,7 @@ package pcgen.core;
 import java.util.List;
 import java.util.Optional;
 
+import org.checkerframework.checker.optional.qual.Present;
 import pcgen.base.formula.Formula;
 import pcgen.cdom.base.ChooseDriver;
 import pcgen.cdom.base.ChooseInformation;
@@ -99,7 +100,7 @@ public final class Race extends PObject implements ChooseDriver, LimitedVarHolde
 	}
 
 	@Override
-	public Optional<String> getLocalScopeName()
+	public @Present Optional<String> getLocalScopeName()
 	{
 		return Optional.of("PC.RACE");
 	}

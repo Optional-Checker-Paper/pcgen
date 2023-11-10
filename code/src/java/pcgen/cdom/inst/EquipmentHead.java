@@ -20,6 +20,7 @@ package pcgen.cdom.inst;
 import java.util.Objects;
 import java.util.Optional;
 
+import org.checkerframework.checker.optional.qual.Present;
 import pcgen.base.formula.base.VarScoped;
 import pcgen.cdom.base.CDOMObject;
 import pcgen.cdom.enumeration.CharID;
@@ -111,7 +112,7 @@ public final class EquipmentHead extends CDOMObject
 	}
 
 	@Override
-	public Optional<String> getLocalScopeName()
+	public @Present Optional<String> getLocalScopeName()
 	{
 		return Optional.of(EquipmentPartScope.PC_EQUIPMENT_PART);
 	}
