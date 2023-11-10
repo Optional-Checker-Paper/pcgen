@@ -35,6 +35,7 @@ plugins {
     id "com.dorongold.task-tree" version '2.1.1'        // Prints the task dependency tree
     id 'org.openjfx.javafxplugin' version '0.0.14'      // JavaFX support
     id 'org.beryx.runtime' version '1.13.0'             // Creates custom runtimes
+    id 'org.checkerframework' version '0.6.35'
 }
 
 /**
@@ -55,6 +56,15 @@ javafx {
     if (!System.getProperty('idea.active') && !(localOnly.toBoolean())) {
         configuration = "compileOnly"
     }
+}
+
+checkerFramework {
+  checkers = [
+    'org.checkerframework.checker.optional.OptionalChecker',
+  ]
+  extraJavacArgs = [
+    '-AsuppressWarnings=type.anno.before.modifier,type.anno.before.decl.anno'
+  ]
 }
 
 // Set the groupId as it helps with Maven
@@ -940,3 +950,4 @@ apply from: 'code/gradle/autobuild.gradle'
 apply from: 'code/gradle/distribution.gradle'
 apply from: 'code/gradle/reporting.gradle'
 apply from: 'code/gradle/release.gradle'
+apply plugin: 'org.checkerframework'
