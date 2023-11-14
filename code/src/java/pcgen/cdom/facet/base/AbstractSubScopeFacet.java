@@ -335,7 +335,10 @@ public class AbstractSubScopeFacet<S1, S2, T> extends AbstractStorageFacet<CharI
 	 *            The ScopeFacetChangeListener to receive
 	 *            TwoScopeFacetChangeEvents from this AbstractScopeFacet
 	 */
-	@SuppressWarnings({"unchecked", "introduce.eliminate"}) // introduce-eliminate : unnecessary optional instantiation
+	@SuppressWarnings({
+    "unchecked",
+    "optional:introduce.eliminate" // introduce-eliminate : unnecessary optional instantiation
+  }) 
 	public void addSubScopeFacetChangeListener(int priority,
 		SubScopeFacetChangeListener<? super S1, ? super S2, ? super T> listener)
 	{

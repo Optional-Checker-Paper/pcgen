@@ -89,7 +89,7 @@ public final class ControlUtilities
 	 *            The code control for which the value should be returned
 	 * @return The value of a code control in the given LoadContext
 	 */
-	@SuppressWarnings("introduce.eliminate") // introduce-eliminate : unnecessary optional instantiation
+	@SuppressWarnings("optional:introduce.eliminate") // introduce-eliminate : unnecessary optional instantiation
 	public static String getControlToken(LoadContext context, CControl control)
 	{
 		CodeControl controller =

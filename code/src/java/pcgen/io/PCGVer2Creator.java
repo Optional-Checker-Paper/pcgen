@@ -1500,7 +1500,7 @@ public final class PCGVer2Creator
 		buffer.append(IOConstants.LINE_SEP);
 	}
 
-	@SuppressWarnings("introduce.eliminate") // introduce-eliminate : unnecessary optional instantiation
+	@SuppressWarnings("optional:introduce.eliminate") // introduce-eliminate : unnecessary optional instantiation
 	private void appendHairStyleLine(StringBuilder buffer)
 	{
 		buffer.append(IOConstants.TAG_HAIRSTYLE).append(':');
