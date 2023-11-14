@@ -32,6 +32,7 @@ public class SkillScope implements PCGenScope
 	/**
 	 * The parent of this scope (once loaded)
 	 */
+	@SuppressWarnings("optional.field") // optional-field : use of optional as a field
 	private Optional<PCGenScope> parent;
 
 	@Override

@@ -41,6 +41,7 @@ public final class BioSetLoader extends LstLineFileLoader
 	/**
 	 * The current Region being processed
 	 */
+	@SuppressWarnings("optional.field") // optional-field : use of optional as a field
 	private Optional<Region> region = Optional.empty();
 
 	BioSet bioSet = new BioSet();

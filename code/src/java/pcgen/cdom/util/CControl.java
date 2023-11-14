@@ -194,6 +194,7 @@ public final class CControl
 	/**
 	 * The controlling Feature for the CodeControl
 	 */
+	@SuppressWarnings("optional.field") // optional-field : use of optional as a field
 	private final Optional<String> controllingFeature;
 
 	/**
@@ -214,6 +215,7 @@ public final class CControl
 	/**
 	 * Constructs a new CControl with the given characteristics.
 	 */
+	@SuppressWarnings("optional.parameter") // optional-parameter : use of optional as a parameter
 	private CControl(String name, String defaultValue,
 		Optional<String> controllingFeature, String format, boolean isChannel,
 		boolean isAutoGranted)
@@ -230,6 +232,7 @@ public final class CControl
 	 * Constructs a new CControl with the given name, default variable name, controlling
 	 * feature, and format.
 	 */
+	@SuppressWarnings("optional.parameter") // optional-parameter : use of optional as a parameter
 	public CControl(String name, String defaultValue, Optional<String> controllingFeature, String format)
 	{
 		this(name, defaultValue, controllingFeature, format, false, false);

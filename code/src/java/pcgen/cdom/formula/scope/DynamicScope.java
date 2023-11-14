@@ -32,6 +32,7 @@ public class DynamicScope implements PCGenScope
 	/**
 	 * The parent PCGenScope for all DynamicScope objects is the GlobalPCScope.
 	 */
+	@SuppressWarnings("optional.field") // optional-field : use of optional as a field
 	private static final Optional<PCGenScope> PARENT_SCOPE = Optional.of(SpringHelper.getBean(GlobalPCScope.class));
 
 	/**
