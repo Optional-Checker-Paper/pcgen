@@ -385,6 +385,7 @@ public class RegionFacet extends AbstractDataFacet<CharID, String>
 		updateRegion(dfce.getCharID());
 	}
 
+	@SuppressWarnings("optional:method.invocation") // tp-get-empty
 	private void updateRegion(CharID id)
 	{
 		RegionCacheInfo rci = getInfo(id);

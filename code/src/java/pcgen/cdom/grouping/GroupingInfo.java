@@ -231,7 +231,10 @@ public class GroupingInfo<T>
 	 * 
 	 * @return The Class of objects managed by this GroupingInfo
 	 */
-	@SuppressWarnings("unchecked")
+	@SuppressWarnings({
+		"unchecked",
+		"optional:method.invocation" // tp-get-empty
+	})
 	public Class<T> getManagedClass(LoadContext context)
 	{
 		return (Class<T>) scope.getFormatManager(context).get().getManagedClass();
