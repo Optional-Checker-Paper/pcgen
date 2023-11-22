@@ -233,7 +233,7 @@ public class GroupingInfo<T>
 	 */
 	@SuppressWarnings({
 		"unchecked",
-		"optional:method.invocation" // tp-get-empty
+		"optional:method.invocation" // application-invariant
 	})
 	public Class<T> getManagedClass(LoadContext context)
 	{
