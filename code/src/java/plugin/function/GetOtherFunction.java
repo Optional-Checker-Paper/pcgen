@@ -122,7 +122,7 @@ public class GetOtherFunction implements FormulaFunction
 	}
 
 	@Override
-	@SuppressWarnings("optional:method.invocation") // tp-get-empty
+	@SuppressWarnings("optional:method.invocation") // application-invariant
 	public Object evaluate(EvaluateVisitor visitor, Node[] args, EvaluationManager manager)
 	{
 		String legalScopeName = ((ASTQuotString) args[0]).getText();
