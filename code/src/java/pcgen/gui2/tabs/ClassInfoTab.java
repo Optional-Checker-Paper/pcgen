@@ -555,6 +555,7 @@ public class ClassInfoTab extends FlippingSplitPane implements CharacterInfoTab
 		}
 
 		@Override
+		@SuppressWarnings("switch.expression")
 		public Object getData(PCClass obj, int column)
 		{
 			return switch (column)

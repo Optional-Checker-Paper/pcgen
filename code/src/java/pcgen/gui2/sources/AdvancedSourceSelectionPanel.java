@@ -538,6 +538,7 @@ class AdvancedSourceSelectionPanel extends JPanel
 		}
 
 		@Override
+		@SuppressWarnings("switch.expression")
 		public Object getData(Campaign obj, int column)
 		{
 			SourceSelectionFacade sourceFacade = uiContext.getCurrentSourceSelectionRef().get();
