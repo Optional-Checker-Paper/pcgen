@@ -21,8 +21,4 @@
  * Nothing here should have a Stage or a Scene attached
  */
 
-@DefaultAnnotation(NonNull.class)
 package pcgen.gui3.component;
-
-import edu.umd.cs.findbugs.annotations.DefaultAnnotation;
-import edu.umd.cs.findbugs.annotations.NonNull;

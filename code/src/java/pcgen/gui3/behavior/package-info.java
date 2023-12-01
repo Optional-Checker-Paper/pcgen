@@ -23,8 +23,5 @@
  * are loaded or other application-state specific issues.
  */
 
-@DefaultAnnotation(NonNull.class)
 package pcgen.gui3.behavior;
 
-import edu.umd.cs.findbugs.annotations.DefaultAnnotation;
-import edu.umd.cs.findbugs.annotations.NonNull;
