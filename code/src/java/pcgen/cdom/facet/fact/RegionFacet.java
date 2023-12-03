@@ -298,6 +298,7 @@ public class RegionFacet extends AbstractDataFacet<CharID, String>
 	 */
 	private static class RegionCacheInfo
 	{
+		@SuppressWarnings("OptionalUsedAsFieldOrParameterType") // intellij-suppression-optional-used-as-field
 		public Optional<Region> cachedRegion = Optional.empty();
 
 		public Region region;
@@ -381,6 +382,7 @@ public class RegionFacet extends AbstractDataFacet<CharID, String>
 		updateRegion(dfce.getCharID());
 	}
 
+	@SuppressWarnings("OptionalGetWithoutIsPresent") // intellij-suppression-optional-get-without-check-tp
 	private void updateRegion(CharID id)
 	{
 		RegionCacheInfo rci = getInfo(id);

@@ -41,6 +41,7 @@ public final class BioSetLoader extends LstLineFileLoader
 	/**
 	 * The current Region being processed
 	 */
+	@SuppressWarnings("OptionalUsedAsFieldOrParameterType") // intellij-suppression-optional-used-as-field
 	private Optional<Region> region = Optional.empty();
 
 	BioSet bioSet = new BioSet();

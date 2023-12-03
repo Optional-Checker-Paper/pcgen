@@ -43,13 +43,17 @@ abstract class BioItem
 {
 
 	private final JLabel label = new JLabel();
+	@SuppressWarnings("OptionalUsedAsFieldOrParameterType") // intellij-suppression-optional-used-as-field
 	private Optional<JComboBox<?>> combobox = Optional.empty();
+	@SuppressWarnings("OptionalUsedAsFieldOrParameterType") // intellij-suppression-optional-used-as-field
 	private Optional<JTextField> textField = Optional.empty();
+	@SuppressWarnings("OptionalUsedAsFieldOrParameterType") // intellij-suppression-optional-used-as-field
 	private Optional<JLabel> trailinglabel = Optional.empty();
 
 	/**
 	 * The ManagedField holding the information for this BioItem.
 	 */
+	@SuppressWarnings("OptionalUsedAsFieldOrParameterType") // intellij-suppression-optional-used-as-field
 	private Optional<ManagedField> textFieldHandler = Optional.empty();
 
 	protected BioItem(String text, BiographyField bioField, CharacterFacade character)

@@ -33,8 +33,10 @@ public final class NoteItem implements Cloneable
 	private String value;
 	private int id_parent;
 	private int id_value;
+	@SuppressWarnings("OptionalUsedAsFieldOrParameterType") // intellij-suppression-optional-used-as-field
 	private final Optional<PCStringKey> key;
 
+	@SuppressWarnings("OptionalUsedAsFieldOrParameterType") // intellij-suppression-optional-used-as-parameter
 	public NoteItem(Optional<PCStringKey> key, final int my_id, final int my_parent, final String aName, final String aValue)
 	{
 		this.key = key;

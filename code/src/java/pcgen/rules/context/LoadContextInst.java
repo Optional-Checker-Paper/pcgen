@@ -544,6 +544,7 @@ abstract class LoadContextInst implements LoadContext
 		commitTasks.add(commitTask);
 	}
 
+	@SuppressWarnings("SimplifyOptionalCallChains") // intellij-suppression-simplify-optional-call-chains
 	private LoadContext dropIntoContext(PCGenScope lvs)
 	{
 		Optional<PCGenScope> parent = lvs.getParentScope();
@@ -814,6 +815,7 @@ abstract class LoadContextInst implements LoadContext
 			return derivedScope;
 		}
 
+		@SuppressWarnings("SimplifyOptionalCallChains") // intellij-suppression-simplify-optional-call-chains
 		@Override
 		public LoadContext dropIntoContext(String scope)
 		{

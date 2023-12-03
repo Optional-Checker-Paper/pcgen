@@ -72,6 +72,8 @@ public class ModifyOtherLst extends AbstractNonEmptyToken<VarHolder>
 			return new ParseResult.Fail(
 				getTokenName() + " found illegal variable scope: " + scopeName + " as first argument: " + value);
 		}
+		// intellij-suppression-optional-assigned-to-null
+		//noinspection OptionalAssignedToNull
 		if (lvs.getParentScope() == null)
 		{
 			return new ParseResult.Fail(

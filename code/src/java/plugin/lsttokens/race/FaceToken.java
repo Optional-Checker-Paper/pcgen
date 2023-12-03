@@ -101,6 +101,7 @@ public class FaceToken extends AbstractNonEmptyToken<LimitedVarHolder>
 		return ParseResult.SUCCESS;
 	}
 
+	@SuppressWarnings("SimplifyOptionalCallChains") // intellij-suppression-simplify-optional-call-chains
 	@Override
 	public String[] unparse(LoadContext context, LimitedVarContainer race)
 	{

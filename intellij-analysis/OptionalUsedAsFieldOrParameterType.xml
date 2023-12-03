@@ -1,0 +1,327 @@
+<problems>
+<problem>
+  <file>file://$PROJECT_DIR$/code/src/java/pcgen/cdom/facet/fact/RegionFacet.java</file>
+  <line>301</line>
+  <module>pcgen.main</module>
+  <package>pcgen.cdom.facet.fact</package>
+  <entry_point TYPE="field" FQNAME="pcgen.cdom.facet.fact.RegionFacet.RegionCacheInfo cachedRegion" />
+  <problem_class id="OptionalUsedAsFieldOrParameterType" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">'Optional' used as field or parameter type</problem_class>
+  <description>&lt;code&gt;Optional&lt;Region&gt;&lt;/code&gt; used as type for field 'cachedRegion'</description>
+  <highlighted_element>Optional&lt;Region&gt;</highlighted_element>
+  <language>JAVA</language>
+  <offset>9</offset>
+  <length>16</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/code/src/java/pcgen/cdom/formula/scope/DynamicScope.java</file>
+  <line>35</line>
+  <module>pcgen.main</module>
+  <package>pcgen.cdom.formula.scope</package>
+  <entry_point TYPE="field" FQNAME="pcgen.cdom.formula.scope.DynamicScope PARENT_SCOPE" />
+  <problem_class id="OptionalUsedAsFieldOrParameterType" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">'Optional' used as field or parameter type</problem_class>
+  <description>&lt;code&gt;Optional&lt;PCGenScope&gt;&lt;/code&gt; used as type for field 'PARENT_SCOPE'</description>
+  <highlighted_element>Optional&lt;PCGenScope&gt;</highlighted_element>
+  <language>JAVA</language>
+  <offset>22</offset>
+  <length>20</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/code/src/java/pcgen/cdom/formula/scope/EquipmentPartScope.java</file>
+  <line>40</line>
+  <module>pcgen.main</module>
+  <package>pcgen.cdom.formula.scope</package>
+  <entry_point TYPE="field" FQNAME="pcgen.cdom.formula.scope.EquipmentPartScope parent" />
+  <problem_class id="OptionalUsedAsFieldOrParameterType" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">'Optional' used as field or parameter type</problem_class>
+  <description>&lt;code&gt;Optional&lt;PCGenScope&gt;&lt;/code&gt; used as type for field 'parent'</description>
+  <highlighted_element>Optional&lt;PCGenScope&gt;</highlighted_element>
+  <language>JAVA</language>
+  <offset>9</offset>
+  <length>20</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/code/src/java/pcgen/cdom/formula/scope/EquipmentScope.java</file>
+  <line>35</line>
+  <module>pcgen.main</module>
+  <package>pcgen.cdom.formula.scope</package>
+  <entry_point TYPE="field" FQNAME="pcgen.cdom.formula.scope.EquipmentScope parent" />
+  <problem_class id="OptionalUsedAsFieldOrParameterType" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">'Optional' used as field or parameter type</problem_class>
+  <description>&lt;code&gt;Optional&lt;PCGenScope&gt;&lt;/code&gt; used as type for field 'parent'</description>
+  <highlighted_element>Optional&lt;PCGenScope&gt;</highlighted_element>
+  <language>JAVA</language>
+  <offset>9</offset>
+  <length>20</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/code/src/java/pcgen/cdom/formula/scope/RaceScope.java</file>
+  <line>35</line>
+  <module>pcgen.main</module>
+  <package>pcgen.cdom.formula.scope</package>
+  <entry_point TYPE="field" FQNAME="pcgen.cdom.formula.scope.RaceScope parent" />
+  <problem_class id="OptionalUsedAsFieldOrParameterType" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">'Optional' used as field or parameter type</problem_class>
+  <description>&lt;code&gt;Optional&lt;PCGenScope&gt;&lt;/code&gt; used as type for field 'parent'</description>
+  <highlighted_element>Optional&lt;PCGenScope&gt;</highlighted_element>
+  <language>JAVA</language>
+  <offset>9</offset>
+  <length>20</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/code/src/java/pcgen/cdom/formula/scope/SaveScope.java</file>
+  <line>35</line>
+  <module>pcgen.main</module>
+  <package>pcgen.cdom.formula.scope</package>
+  <entry_point TYPE="field" FQNAME="pcgen.cdom.formula.scope.SaveScope parent" />
+  <problem_class id="OptionalUsedAsFieldOrParameterType" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">'Optional' used as field or parameter type</problem_class>
+  <description>&lt;code&gt;Optional&lt;PCGenScope&gt;&lt;/code&gt; used as type for field 'parent'</description>
+  <highlighted_element>Optional&lt;PCGenScope&gt;</highlighted_element>
+  <language>JAVA</language>
+  <offset>9</offset>
+  <length>20</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/code/src/java/pcgen/cdom/formula/scope/SizeScope.java</file>
+  <line>35</line>
+  <module>pcgen.main</module>
+  <package>pcgen.cdom.formula.scope</package>
+  <entry_point TYPE="field" FQNAME="pcgen.cdom.formula.scope.SizeScope parent" />
+  <problem_class id="OptionalUsedAsFieldOrParameterType" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">'Optional' used as field or parameter type</problem_class>
+  <description>&lt;code&gt;Optional&lt;PCGenScope&gt;&lt;/code&gt; used as type for field 'parent'</description>
+  <highlighted_element>Optional&lt;PCGenScope&gt;</highlighted_element>
+  <language>JAVA</language>
+  <offset>9</offset>
+  <length>20</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/code/src/java/pcgen/cdom/formula/scope/SkillScope.java</file>
+  <line>35</line>
+  <module>pcgen.main</module>
+  <package>pcgen.cdom.formula.scope</package>
+  <entry_point TYPE="field" FQNAME="pcgen.cdom.formula.scope.SkillScope parent" />
+  <problem_class id="OptionalUsedAsFieldOrParameterType" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">'Optional' used as field or parameter type</problem_class>
+  <description>&lt;code&gt;Optional&lt;PCGenScope&gt;&lt;/code&gt; used as type for field 'parent'</description>
+  <highlighted_element>Optional&lt;PCGenScope&gt;</highlighted_element>
+  <language>JAVA</language>
+  <offset>9</offset>
+  <length>20</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/code/src/java/pcgen/cdom/formula/scope/StatScope.java</file>
+  <line>35</line>
+  <module>pcgen.main</module>
+  <package>pcgen.cdom.formula.scope</package>
+  <entry_point TYPE="field" FQNAME="pcgen.cdom.formula.scope.StatScope parent" />
+  <problem_class id="OptionalUsedAsFieldOrParameterType" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">'Optional' used as field or parameter type</problem_class>
+  <description>&lt;code&gt;Optional&lt;PCGenScope&gt;&lt;/code&gt; used as type for field 'parent'</description>
+  <highlighted_element>Optional&lt;PCGenScope&gt;</highlighted_element>
+  <language>JAVA</language>
+  <offset>9</offset>
+  <length>20</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/code/src/java/pcgen/cdom/util/CControl.java</file>
+  <line>197</line>
+  <module>pcgen.main</module>
+  <package>pcgen.cdom.util</package>
+  <entry_point TYPE="field" FQNAME="pcgen.cdom.util.CControl controllingFeature" />
+  <problem_class id="OptionalUsedAsFieldOrParameterType" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">'Optional' used as field or parameter type</problem_class>
+  <description>&lt;code&gt;Optional&lt;String&gt;&lt;/code&gt; used as type for field 'controllingFeature'</description>
+  <highlighted_element>Optional&lt;String&gt;</highlighted_element>
+  <language>JAVA</language>
+  <offset>15</offset>
+  <length>16</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/code/src/java/pcgen/cdom/util/CControl.java</file>
+  <line>218</line>
+  <module>pcgen.main</module>
+  <package>pcgen.cdom.util</package>
+  <entry_point TYPE="method" FQNAME="pcgen.cdom.util.CControl CControl(java.lang.String name, java.lang.String defaultValue, java.util.Optional&lt;java.lang.String&gt; controllingFeature, java.lang.String format, boolean isChannel, boolean isAutoGranted)" />
+  <problem_class id="OptionalUsedAsFieldOrParameterType" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">'Optional' used as field or parameter type</problem_class>
+  <description>&lt;code&gt;Optional&lt;String&gt;&lt;/code&gt; used as type for parameter 'controllingFeature'</description>
+  <highlighted_element>Optional&lt;String&gt;</highlighted_element>
+  <language>JAVA</language>
+  <offset>2</offset>
+  <length>16</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/code/src/java/pcgen/cdom/util/CControl.java</file>
+  <line>233</line>
+  <module>pcgen.main</module>
+  <package>pcgen.cdom.util</package>
+  <entry_point TYPE="method" FQNAME="pcgen.cdom.util.CControl CControl(java.lang.String name, java.lang.String defaultValue, java.util.Optional&lt;java.lang.String&gt; controllingFeature, java.lang.String format)" />
+  <problem_class id="OptionalUsedAsFieldOrParameterType" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">'Optional' used as field or parameter type</problem_class>
+  <description>&lt;code&gt;Optional&lt;String&gt;&lt;/code&gt; used as type for parameter 'controllingFeature'</description>
+  <highlighted_element>Optional&lt;String&gt;</highlighted_element>
+  <language>JAVA</language>
+  <offset>51</offset>
+  <length>16</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/code/src/java/pcgen/core/BioSet.java</file>
+  <line>69</line>
+  <module>pcgen.main</module>
+  <package>pcgen.core</package>
+  <entry_point TYPE="method" FQNAME="pcgen.core.BioSet pcgen.core.AgeSet getAgeSet(java.util.Optional&lt;pcgen.cdom.enumeration.Region&gt; region, int index)" />
+  <problem_class id="OptionalUsedAsFieldOrParameterType" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">'Optional' used as field or parameter type</problem_class>
+  <description>&lt;code&gt;Optional&lt;Region&gt;&lt;/code&gt; used as type for parameter 'region'</description>
+  <highlighted_element>Optional&lt;Region&gt;</highlighted_element>
+  <language>JAVA</language>
+  <offset>25</offset>
+  <length>16</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/code/src/java/pcgen/core/BioSet.java</file>
+  <line>119</line>
+  <module>pcgen.main</module>
+  <package>pcgen.core</package>
+  <entry_point TYPE="method" FQNAME="pcgen.core.BioSet void addToUserMap(java.util.Optional&lt;pcgen.cdom.enumeration.Region&gt; region, java.lang.String race, java.lang.String tag, int ageSetIndex)" />
+  <problem_class id="OptionalUsedAsFieldOrParameterType" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">'Optional' used as field or parameter type</problem_class>
+  <description>&lt;code&gt;Optional&lt;Region&gt;&lt;/code&gt; used as type for parameter 'region'</description>
+  <highlighted_element>Optional&lt;Region&gt;</highlighted_element>
+  <language>JAVA</language>
+  <offset>26</offset>
+  <length>16</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/code/src/java/pcgen/core/BioSet.java</file>
+  <line>250</line>
+  <module>pcgen.main</module>
+  <package>pcgen.core</package>
+  <entry_point TYPE="method" FQNAME="pcgen.core.BioSet java.lang.String getTokenNumberInMaps(java.lang.String addKey, int tokenNum, java.util.Optional&lt;pcgen.cdom.enumeration.Region&gt; region, java.lang.String raceName)" />
+  <problem_class id="OptionalUsedAsFieldOrParameterType" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">'Optional' used as field or parameter type</problem_class>
+  <description>&lt;code&gt;Optional&lt;Region&gt;&lt;/code&gt; used as type for parameter 'region'</description>
+  <highlighted_element>Optional&lt;Region&gt;</highlighted_element>
+  <language>JAVA</language>
+  <offset>78</offset>
+  <length>16</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/code/src/java/pcgen/core/BioSet.java</file>
+  <line>278</line>
+  <module>pcgen.main</module>
+  <package>pcgen.core</package>
+  <entry_point TYPE="method" FQNAME="pcgen.core.BioSet java.util.List&lt;java.lang.String&gt; getValueInMaps(java.util.Optional&lt;pcgen.cdom.enumeration.Region&gt; region, java.lang.String argRaceName, java.lang.String addKey)" />
+  <problem_class id="OptionalUsedAsFieldOrParameterType" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">'Optional' used as field or parameter type</problem_class>
+  <description>&lt;code&gt;Optional&lt;Region&gt;&lt;/code&gt; used as type for parameter 'region'</description>
+  <highlighted_element>Optional&lt;Region&gt;</highlighted_element>
+  <language>JAVA</language>
+  <offset>36</offset>
+  <length>16</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/code/src/java/pcgen/core/BioSet.java</file>
+  <line>340</line>
+  <module>pcgen.main</module>
+  <package>pcgen.core</package>
+  <entry_point TYPE="method" FQNAME="pcgen.core.BioSet java.lang.String appendAgesetInfo(java.util.Optional&lt;pcgen.cdom.enumeration.Region&gt; region, java.util.SortedMap&lt;java.lang.Integer,java.util.SortedMap&lt;java.lang.String,java.util.SortedMap&lt;java.lang.String,java.lang.String&gt;&gt;&gt; ageSets, java.lang.StringBuilder sb)" />
+  <problem_class id="OptionalUsedAsFieldOrParameterType" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">'Optional' used as field or parameter type</problem_class>
+  <description>&lt;code&gt;Optional&lt;Region&gt;&lt;/code&gt; used as type for parameter 'region'</description>
+  <highlighted_element>Optional&lt;Region&gt;</highlighted_element>
+  <language>JAVA</language>
+  <offset>33</offset>
+  <length>16</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/code/src/java/pcgen/core/BioSet.java</file>
+  <line>564</line>
+  <module>pcgen.main</module>
+  <package>pcgen.core</package>
+  <entry_point TYPE="method" FQNAME="pcgen.core.BioSet java.util.List&lt;java.lang.String&gt; mapFind(pcgen.base.util.TripleKeyMapToList&lt;java.util.Optional&lt;pcgen.cdom.enumeration.Region&gt;,java.lang.String,java.lang.String,java.lang.String&gt; argMap, java.util.Optional&lt;pcgen.cdom.enumeration.Region&gt; region, java.lang.String argRaceName, java.lang.String addKey, java.lang.String altRaceName)" />
+  <problem_class id="OptionalUsedAsFieldOrParameterType" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">'Optional' used as field or parameter type</problem_class>
+  <description>&lt;code&gt;Optional&lt;Region&gt;&lt;/code&gt; used as type for parameter 'region'</description>
+  <highlighted_element>Optional&lt;Region&gt;</highlighted_element>
+  <language>JAVA</language>
+  <offset>2</offset>
+  <length>16</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/code/src/java/pcgen/core/BioSet.java</file>
+  <line>603</line>
+  <module>pcgen.main</module>
+  <package>pcgen.core</package>
+  <entry_point TYPE="method" FQNAME="pcgen.core.BioSet pcgen.core.AgeSet addToAgeMap(java.util.Optional&lt;pcgen.cdom.enumeration.Region&gt; region, pcgen.core.AgeSet ageSet, java.net.URI sourceURI)" />
+  <problem_class id="OptionalUsedAsFieldOrParameterType" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">'Optional' used as field or parameter type</problem_class>
+  <description>&lt;code&gt;Optional&lt;Region&gt;&lt;/code&gt; used as type for parameter 'region'</description>
+  <highlighted_element>Optional&lt;Region&gt;</highlighted_element>
+  <language>JAVA</language>
+  <offset>27</offset>
+  <length>16</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/code/src/java/pcgen/core/NoteItem.java</file>
+  <line>36</line>
+  <module>pcgen.main</module>
+  <package>pcgen.core</package>
+  <entry_point TYPE="field" FQNAME="pcgen.core.NoteItem key" />
+  <problem_class id="OptionalUsedAsFieldOrParameterType" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">'Optional' used as field or parameter type</problem_class>
+  <description>&lt;code&gt;Optional&lt;PCStringKey&gt;&lt;/code&gt; used as type for field 'key'</description>
+  <highlighted_element>Optional&lt;PCStringKey&gt;</highlighted_element>
+  <language>JAVA</language>
+  <offset>15</offset>
+  <length>21</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/code/src/java/pcgen/core/NoteItem.java</file>
+  <line>38</line>
+  <module>pcgen.main</module>
+  <package>pcgen.core</package>
+  <entry_point TYPE="method" FQNAME="pcgen.core.NoteItem NoteItem(java.util.Optional&lt;pcgen.cdom.enumeration.PCStringKey&gt; key, int my_id, int my_parent, java.lang.String aName, java.lang.String aValue)" />
+  <problem_class id="OptionalUsedAsFieldOrParameterType" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">'Optional' used as field or parameter type</problem_class>
+  <description>&lt;code&gt;Optional&lt;PCStringKey&gt;&lt;/code&gt; used as type for parameter 'key'</description>
+  <highlighted_element>Optional&lt;PCStringKey&gt;</highlighted_element>
+  <language>JAVA</language>
+  <offset>17</offset>
+  <length>21</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/code/src/java/pcgen/gui2/tabs/bio/BioItem.java</file>
+  <line>47</line>
+  <module>pcgen.main</module>
+  <package>pcgen.gui2.tabs.bio</package>
+  <entry_point TYPE="field" FQNAME="pcgen.gui2.tabs.bio.BioItem textField" />
+  <problem_class id="OptionalUsedAsFieldOrParameterType" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">'Optional' used as field or parameter type</problem_class>
+  <description>&lt;code&gt;Optional&lt;JTextField&gt;&lt;/code&gt; used as type for field 'textField'</description>
+  <highlighted_element>Optional&lt;JTextField&gt;</highlighted_element>
+  <language>JAVA</language>
+  <offset>174</offset>
+  <length>20</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/code/src/java/pcgen/gui2/tabs/bio/BioItem.java</file>
+  <line>48</line>
+  <module>pcgen.main</module>
+  <package>pcgen.gui2.tabs.bio</package>
+  <entry_point TYPE="field" FQNAME="pcgen.gui2.tabs.bio.BioItem trailinglabel" />
+  <problem_class id="OptionalUsedAsFieldOrParameterType" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">'Optional' used as field or parameter type</problem_class>
+  <description>&lt;code&gt;Optional&lt;JLabel&gt;&lt;/code&gt; used as type for field 'trailinglabel'</description>
+  <highlighted_element>Optional&lt;JLabel&gt;</highlighted_element>
+  <language>JAVA</language>
+  <offset>277</offset>
+  <length>16</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/code/src/java/pcgen/gui2/tabs/bio/BioItem.java</file>
+  <line>53</line>
+  <module>pcgen.main</module>
+  <package>pcgen.gui2.tabs.bio</package>
+  <entry_point TYPE="field" FQNAME="pcgen.gui2.tabs.bio.BioItem textFieldHandler" />
+  <problem_class id="OptionalUsedAsFieldOrParameterType" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">'Optional' used as field or parameter type</problem_class>
+  <description>&lt;code&gt;Optional&lt;ManagedField&gt;&lt;/code&gt; used as type for field 'textFieldHandler'</description>
+  <highlighted_element>Optional&lt;ManagedField&gt;</highlighted_element>
+  <language>JAVA</language>
+  <offset>186</offset>
+  <length>22</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/code/src/java/pcgen/persistence/lst/BioSetLoader.java</file>
+  <line>44</line>
+  <module>pcgen.main</module>
+  <package>pcgen.persistence.lst</package>
+  <entry_point TYPE="field" FQNAME="pcgen.persistence.lst.BioSetLoader region" />
+  <problem_class id="OptionalUsedAsFieldOrParameterType" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">'Optional' used as field or parameter type</problem_class>
+  <description>&lt;code&gt;Optional&lt;Region&gt;&lt;/code&gt; used as type for field 'region'</description>
+  <highlighted_element>Optional&lt;Region&gt;</highlighted_element>
+  <language>JAVA</language>
+  <offset>9</offset>
+  <length>16</length>
+</problem>
+</problems>

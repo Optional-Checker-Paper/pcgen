@@ -66,6 +66,7 @@ public final class BioSet extends PObject implements NonInteractive
 	 *            The index to determine the AgeSet to be returned.
 	 * @return The AgeSet for the given Region and AgeSet index
 	 */
+	@SuppressWarnings("OptionalUsedAsFieldOrParameterType") // intellij-suppression-optional-used-as-parameter
 	public AgeSet getAgeSet(Optional<Region> region, int index)
 	{
 		AgeSet ageSet = ageMap.get(region, index);
@@ -116,6 +117,7 @@ public final class BioSet extends PObject implements NonInteractive
 	 * @param tag The tag to be entered. Must be in the form key:value
 	 * @param ageSetIndex The age set to be updated.
 	 */
+	@SuppressWarnings("OptionalUsedAsFieldOrParameterType") // intellij-suppression-optional-used-as-parameter
 	public void addToUserMap(Optional<Region> region, final String race, final String tag, final int ageSetIndex)
 	{
 		final int x = tag.indexOf(':');
@@ -247,6 +249,7 @@ public final class BioSet extends PObject implements NonInteractive
 		return ageSets;
 	}
 
+	@SuppressWarnings("OptionalUsedAsFieldOrParameterType") // intellij-suppression-optional-used-as-parameter
 	private String getTokenNumberInMaps(final String addKey, final int tokenNum, Optional<Region> region, String raceName)
 	{
 		final List<String> r = getValueInMaps(region, raceName, addKey);
@@ -275,6 +278,7 @@ public final class BioSet extends PObject implements NonInteractive
 	 *            The token key of the information to be returned
 	 * @return The List of items in the BioSet for the given parameters
 	 */
+	@SuppressWarnings("OptionalUsedAsFieldOrParameterType") // intellij-suppression-optional-used-as-parameter
 	public List<String> getValueInMaps(Optional<Region> region, final String argRaceName, final String addKey)
 	{
 		final String anotherRaceName;
@@ -337,6 +341,7 @@ public final class BioSet extends PObject implements NonInteractive
 		}
 	}
 
+	@SuppressWarnings("OptionalUsedAsFieldOrParameterType") // intellij-suppression-optional-used-as-parameter
 	private String appendAgesetInfo(Optional<Region> region,
 		final SortedMap<Integer, SortedMap<String, SortedMap<String, String>>> ageSets, final StringBuilder sb)
 	{
@@ -560,6 +565,7 @@ public final class BioSet extends PObject implements NonInteractive
 		}
 	}
 
+	@SuppressWarnings("OptionalUsedAsFieldOrParameterType") // intellij-suppression-optional-used-as-parameter
 	private List<String> mapFind(final TripleKeyMapToList<Optional<Region>, String, String, String> argMap,
 		Optional<Region> region, final String argRaceName, final String addKey, final String altRaceName)
 	{
@@ -600,6 +606,7 @@ public final class BioSet extends PObject implements NonInteractive
 	 * @param sourceURI The URI indicating the location of the AgeSet in the data
 	 * @return
 	 */
+	@SuppressWarnings("OptionalUsedAsFieldOrParameterType") // intellij-suppression-optional-used-as-parameter
 	public AgeSet addToAgeMap(Optional<Region> region, AgeSet ageSet, URI sourceURI)
 	{
 		AgeSet old = ageMap.get(region, ageSet.getIndex());

@@ -1,0 +1,93 @@
+<problems>
+<problem>
+  <file>file://$PROJECT_DIR$/code/src/java/pcgen/cdom/facet/StatValueFacet.java</file>
+  <line>209</line>
+  <module>pcgen.main</module>
+  <package>pcgen.cdom.facet</package>
+  <entry_point TYPE="method" FQNAME="pcgen.cdom.facet.StatValueFacet pcgen.base.formula.base.VariableID&lt;java.lang.Number&gt; getVarID(pcgen.cdom.enumeration.CharID id, pcgen.core.PCStat stat, java.lang.String channelName)" />
+  <problem_class id="OptionalGetWithoutIsPresent" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Optional.get() is called without isPresent() check</problem_class>
+  <description>&lt;code&gt;Optional.get()&lt;/code&gt; without 'isPresent()' check</description>
+  <highlighted_element>get</highlighted_element>
+  <language>JAVA</language>
+  <offset>59</offset>
+  <length>3</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/code/src/java/pcgen/cdom/facet/fact/RegionFacet.java</file>
+  <line>393</line>
+  <module>pcgen.main</module>
+  <package>pcgen.cdom.facet.fact</package>
+  <entry_point TYPE="method" FQNAME="pcgen.cdom.facet.fact.RegionFacet void updateRegion(pcgen.cdom.enumeration.CharID id)" />
+  <problem_class id="OptionalGetWithoutIsPresent" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Optional.get() is called without isPresent() check</problem_class>
+  <description>&lt;code&gt;Optional.get()&lt;/code&gt; without 'isPresent()' check</description>
+  <highlighted_element>get</highlighted_element>
+  <language>JAVA</language>
+  <offset>42</offset>
+  <length>3</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/code/src/java/pcgen/cdom/formula/VariableUtilities.java</file>
+  <line>185</line>
+  <module>pcgen.main</module>
+  <package>pcgen.cdom.formula</package>
+  <entry_point TYPE="method" FQNAME="pcgen.cdom.formula.VariableUtilities pcgen.base.formula.base.VariableID&lt;?&gt; getLocalVariableID(pcgen.cdom.enumeration.CharID id, pcgen.base.formula.base.VarScoped owner, java.lang.String name)" />
+  <problem_class id="OptionalGetWithoutIsPresent" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Optional.get() is called without isPresent() check</problem_class>
+  <description>&lt;code&gt;Optional.get()&lt;/code&gt; without 'isPresent()' check</description>
+  <highlighted_element>get</highlighted_element>
+  <language>JAVA</language>
+  <offset>35</offset>
+  <length>3</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/code/src/java/pcgen/cdom/grouping/GroupingInfo.java</file>
+  <line>237</line>
+  <module>pcgen.main</module>
+  <package>pcgen.cdom.grouping</package>
+  <entry_point TYPE="method" FQNAME="pcgen.cdom.grouping.GroupingInfo java.lang.Class&lt;T&gt; getManagedClass(pcgen.rules.context.LoadContext context)" />
+  <problem_class id="OptionalGetWithoutIsPresent" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Optional.get() is called without isPresent() check</problem_class>
+  <description>&lt;code&gt;Optional.get()&lt;/code&gt; without 'isPresent()' check</description>
+  <highlighted_element>get</highlighted_element>
+  <language>JAVA</language>
+  <offset>52</offset>
+  <length>3</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/code/src/java/plugin/function/GetOtherFunction.java</file>
+  <line>137</line>
+  <module>pcgen.main</module>
+  <package>plugin.function</package>
+  <entry_point TYPE="method" FQNAME="plugin.function.GetOtherFunction java.lang.Object evaluate(pcgen.base.formula.visitor.EvaluateVisitor visitor, pcgen.base.formula.parse.Node[] args, pcgen.base.formula.base.EvaluationManager manager)" />
+  <problem_class id="OptionalGetWithoutIsPresent" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Optional.get() is called without isPresent() check</problem_class>
+  <description>&lt;code&gt;Optional.get()&lt;/code&gt; without 'isPresent()' check</description>
+  <highlighted_element>get</highlighted_element>
+  <language>JAVA</language>
+  <offset>57</offset>
+  <length>3</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/code/src/java/plugin/function/GroupFunction.java</file>
+  <line>134</line>
+  <module>pcgen.main</module>
+  <package>plugin.function</package>
+  <entry_point TYPE="method" FQNAME="plugin.function.GroupFunction java.lang.Object evaluate(pcgen.base.formula.visitor.EvaluateVisitor visitor, pcgen.base.formula.parse.Node[] args, pcgen.base.formula.base.EvaluationManager manager)" />
+  <problem_class id="OptionalGetWithoutIsPresent" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Optional.get() is called without isPresent() check</problem_class>
+  <description>&lt;code&gt;Optional.get()&lt;/code&gt; without 'isPresent()' check</description>
+  <highlighted_element>get</highlighted_element>
+  <language>JAVA</language>
+  <offset>32</offset>
+  <length>3</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/code/src/java/plugin/function/LookupFunction.java</file>
+  <line>142</line>
+  <module>pcgen.main</module>
+  <package>plugin.function</package>
+  <entry_point TYPE="method" FQNAME="plugin.function.LookupFunction pcgen.base.util.FormatManager&lt;?&gt; allowArgs(pcgen.base.formula.visitor.SemanticsVisitor visitor, pcgen.base.formula.parse.Node[] args, pcgen.base.formula.base.FormulaSemantics semantics)" />
+  <problem_class id="OptionalGetWithoutIsPresent" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Optional.get() is called without isPresent() check</problem_class>
+  <description>&lt;code&gt;Optional.get()&lt;/code&gt; without 'isPresent()' check</description>
+  <highlighted_element>get</highlighted_element>
+  <language>JAVA</language>
+  <offset>34</offset>
+  <length>3</length>
+</problem>
+</problems>

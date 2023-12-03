@@ -75,6 +75,7 @@ public class LookupFunction implements FormulaFunction
 		return false;
 	}
 
+	@SuppressWarnings("OptionalGetWithoutIsPresent") // intellij-suppression-optional-get-without-check-fp
 	@Override
 	public FormatManager<?> allowArgs(SemanticsVisitor visitor, Node[] args, FormulaSemantics semantics)
 	{

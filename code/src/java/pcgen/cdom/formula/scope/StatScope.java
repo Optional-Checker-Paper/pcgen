@@ -32,6 +32,7 @@ public class StatScope implements PCGenScope
 	/**
 	 * The parent of this scope (once loaded)
 	 */
+	@SuppressWarnings("OptionalUsedAsFieldOrParameterType") // intellij-suppression-optional-used-as-field
 	private Optional<PCGenScope> parent;
 
 	@Override

@@ -121,6 +121,7 @@ public class GetOtherFunction implements FormulaFunction
 		}
 	}
 
+	@SuppressWarnings("OptionalGetWithoutIsPresent") // intellij-suppression-optional-get-without-check-fp
 	@Override
 	public Object evaluate(EvaluateVisitor visitor, Node[] args, EvaluationManager manager)
 	{

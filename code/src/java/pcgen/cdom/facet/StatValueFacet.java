@@ -201,6 +201,7 @@ public class StatValueFacet extends AbstractScopeFacet<CharID, PCStat, Number>
 		return ControlUtilities.getControlToken(Globals.getContext(), CControl.STATINPUT);
 	}
 
+	@SuppressWarnings("OptionalGetWithoutIsPresent") // intellij-suppression-optional-get-without-check-fp
 	private VariableID<Number> getVarID(CharID id, PCStat stat, String channelName)
 	{
 		String varName = ChannelUtilities.createVarName(channelName);
