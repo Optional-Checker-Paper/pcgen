@@ -64,8 +64,10 @@ checkerFramework {
   ]
   extraJavacArgs = [
     '-AsuppressWarnings=type.anno.before.modifier,type.anno.before.decl.anno',
-    '-AassumePure'
-  ]
+    '-AassumePure',
+    '-AwarnUnneededSuppressions'
+   ]
+   excludeTests = true
 }
 
 // Set the groupId as it helps with Maven
