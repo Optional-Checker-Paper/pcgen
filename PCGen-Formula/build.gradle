@@ -40,6 +40,7 @@ repositories {
         url 'http://pc-gen.org/librepo'
 	allowInsecureProtocol true
     }
+    maven { url 'https://oss.sonatype.org/content/repositories/snapshots/' }
 }
 
 dependencies {
