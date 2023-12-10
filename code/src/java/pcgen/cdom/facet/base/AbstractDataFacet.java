@@ -96,9 +96,9 @@ public abstract class AbstractDataFacet<IDT extends PCGenIdentifier, T> extends 
 	 *            from this AbstractDataFacet
 	 */
 	@SuppressWarnings({
-    "unchecked",
-    "optional:introduce.eliminate" // introduce-eliminate : unnecessary optional instantiation
-  }) 
+		"unchecked",
+		"optional:introduce.eliminate" // introduce-eliminate
+	})
 	public void addDataFacetChangeListener(int priority, DataFacetChangeListener<IDT, ? super T> listener)
 	{
 		DataFacetChangeListener<IDT, ? super T>[] dfcl = listeners.get(priority);

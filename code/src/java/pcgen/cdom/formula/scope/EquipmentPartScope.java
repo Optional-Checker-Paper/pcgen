@@ -37,7 +37,7 @@ public class EquipmentPartScope implements PCGenScope
 	/**
 	 * The parent of this scope (once loaded)
 	 */
-	@SuppressWarnings("optional:optional.field") // optional-field : use of optional as a field
+	@SuppressWarnings("optional:optional.field") // optional-field
 	private Optional<PCGenScope> parent;
 
 	@Override

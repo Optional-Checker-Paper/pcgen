@@ -293,10 +293,10 @@ public class AbstractScopeFacet<IDT extends PCGenIdentifier, S, T> extends Abstr
 	 *            from this AbstractScopeFacet
 	 */
 	@SuppressWarnings({
-    "unchecked",
-    "optional:introduce.eliminate" // introduce-eliminate : unnecessary optional instantiation
-  })
-  public void addScopeFacetChangeListener(int priority,
+		"unchecked",
+		"optional:introduce.eliminate" // introduce-eliminate
+	})
+	public void addScopeFacetChangeListener(int priority,
 		ScopeFacetChangeListener<? super IDT, ? super S, ? super T> listener)
 	{
 		ScopeFacetChangeListener<? super IDT, ? super S, ? super T>[] dfcl =
