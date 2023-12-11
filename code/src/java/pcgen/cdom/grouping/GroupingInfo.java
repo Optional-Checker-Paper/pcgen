@@ -231,7 +231,7 @@ public class GroupingInfo<T>
 	 * 
 	 * @return The Class of objects managed by this GroupingInfo
 	 */
-	@SuppressWarnings({"unchecked", "OptionalGetWithoutIsPresent"}) // intellij-suppression-optional-get-without-check-fp
+	@SuppressWarnings({"unchecked", "OptionalGetWithoutIsPresent"}) // intellij-suppression-optional-get-without-check-tp
 	public Class<T> getManagedClass(LoadContext context)
 	{
 		return (Class<T>) scope.getFormatManager(context).get().getManagedClass();
