@@ -133,7 +133,7 @@ public class GroupFunction implements FormulaFunction
 //				(ReferenceManufacturer<? extends PCGenScoped>) scope
 //					.getFormatManager(context).get();
 		Optional<FormatManager<?>> optFormatManager = scope.getFormatManager(context);
-		@SuppressWarnings("optional:method.invocation") // application-invariant : checked for empty earlier.
+		@SuppressWarnings("optional:method.invocation") // application invariant : checked for empty earlier.
 		ReferenceManufacturer<? extends PCGenScoped> refMfg = (ReferenceManufacturer<? extends PCGenScoped>) optFormatManager.get();
 
 		String groupingName = (String) args[1].jjtAccept(visitor,

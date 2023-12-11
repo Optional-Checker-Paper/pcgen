@@ -122,7 +122,6 @@ public class GetOtherFunction implements FormulaFunction
 	}
 
 	@Override
-	@SuppressWarnings("optional:method.invocation") // application-invariant
 	public Object evaluate(EvaluateVisitor visitor, Node[] args, EvaluationManager manager)
 	{
 		String legalScopeName = ((ASTQuotString) args[0]).getText();
@@ -133,8 +132,11 @@ public class GetOtherFunction implements FormulaFunction
 			manager.getWith(EvaluationManager.ASSERTED, legalScope.getFormatManager(context)));
 		FormulaManager fm = manager.get(EvaluationManager.FMANAGER);
 		ScopeInstanceFactory siFactory = fm.getScopeInstanceFactory();
+                // TODO: VarScoped seems to only have two methods: getKeyName and getProviderFor.  So why is this call to getLocalScopeName() legal?
 		Optional<String> localScopeName = vs.getLocalScopeName();
-		//TODO This may be a bug?  What if it doesn't have a localScopeName?
+                @SuppressWarnings("optional:method.invocation" // bug: ? most but not all calls to getLocalScopeName() are followed by a presence check.
+                        // But, every implementation of getLocalScopeName() except the one in CDOMObject returns a @Present optional.
+                                  )
 		ScopeInstance scopeInst = siFactory.get(localScopeName.get(), Optional.of(vs));
 		//Rest of Equation
 		return args[2].jjtAccept(visitor, manager.getWith(EvaluationManager.INSTANCE, scopeInst));

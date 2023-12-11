@@ -233,7 +233,7 @@ public class GroupingInfo<T>
 	 */
 	@SuppressWarnings({
 		"unchecked",
-		"optional:method.invocation" // application-invariant
+		"optional:method.invocation" // bug: there are many overrides of getFormatManager() that return empty.
 	})
 	public Class<T> getManagedClass(LoadContext context)
 	{
