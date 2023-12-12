@@ -43,17 +43,17 @@ abstract class BioItem
 {
 
 	private final JLabel label = new JLabel();
-	@SuppressWarnings("optional:optional.field") // optional-field
+	@SuppressWarnings("optional:optional.field") // style-optional-field
 	private Optional<JComboBox<?>> combobox = Optional.empty();
-	@SuppressWarnings("optional:optional.field") // optional-field
+	@SuppressWarnings("optional:optional.field") // style-optional-field
 	private Optional<JTextField> textField = Optional.empty();
-	@SuppressWarnings("optional:optional.field") // optional-field
+	@SuppressWarnings("optional:optional.field") // style-optional-field
 	private Optional<JLabel> trailinglabel = Optional.empty();
 
 	/**
 	 * The ManagedField holding the information for this BioItem.
 	 */
-	@SuppressWarnings("optional:optional.field") // optional-field
+	@SuppressWarnings("optional:optional.field") // style-optional-field
 	private Optional<ManagedField> textFieldHandler = Optional.empty();
 
 	protected BioItem(String text, BiographyField bioField, CharacterFacade character)

@@ -32,7 +32,7 @@ public class SizeScope implements PCGenScope
 	/**
 	 * The parent of this scope (once loaded)
 	 */
-	@SuppressWarnings("optional:optional.field") // optional-field
+	@SuppressWarnings("optional:optional.field") // style-optional-field
 	private Optional<PCGenScope> parent;
 
 	@Override

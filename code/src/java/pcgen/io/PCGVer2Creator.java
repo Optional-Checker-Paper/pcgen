@@ -1500,7 +1500,7 @@ public final class PCGVer2Creator
 		buffer.append(IOConstants.LINE_SEP);
 	}
 
-	@SuppressWarnings("optional:introduce.eliminate") // introduce-eliminate
+	@SuppressWarnings("optional:introduce.eliminate") // style-introduce-eliminate
 	private void appendHairStyleLine(StringBuilder buffer)
 	{
 		buffer.append(IOConstants.TAG_HAIRSTYLE).append(':');

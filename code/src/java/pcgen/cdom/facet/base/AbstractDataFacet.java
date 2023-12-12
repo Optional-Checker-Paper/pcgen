@@ -97,7 +97,7 @@ public abstract class AbstractDataFacet<IDT extends PCGenIdentifier, T> extends 
 	 */
 	@SuppressWarnings({
 		"unchecked",
-		"optional:introduce.eliminate" // introduce-eliminate
+		"optional:introduce.eliminate" // style-introduce-eliminate
 	})
 	public void addDataFacetChangeListener(int priority, DataFacetChangeListener<IDT, ? super T> listener)
 	{

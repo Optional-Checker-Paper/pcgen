@@ -337,7 +337,7 @@ public class AbstractSubScopeFacet<S1, S2, T> extends AbstractStorageFacet<CharI
 	 */
 	@SuppressWarnings({
 		"unchecked",
-		"optional:introduce.eliminate" // introduce-eliminate
+		"optional:introduce.eliminate" // style-introduce-eliminate
 	}) 
 	public void addSubScopeFacetChangeListener(int priority,
 		SubScopeFacetChangeListener<? super S1, ? super S2, ? super T> listener)

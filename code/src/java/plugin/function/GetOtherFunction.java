@@ -134,7 +134,7 @@ public class GetOtherFunction implements FormulaFunction
 		ScopeInstanceFactory siFactory = fm.getScopeInstanceFactory();
                 // TODO: VarScoped seems to only have two methods: getKeyName and getProviderFor.  So why is this call to getLocalScopeName() legal?
 		Optional<String> localScopeName = vs.getLocalScopeName();
-                @SuppressWarnings("optional:method.invocation" // bug: ? most but not all calls to getLocalScopeName() are followed by a presence check.
+                @SuppressWarnings("optional:method.invocation" // true positive: ? most but not all calls to getLocalScopeName() are followed by a presence check.
                         // But, every implementation of getLocalScopeName() except the one in CDOMObject returns a @Present optional.
                                   )
 		ScopeInstance scopeInst = siFactory.get(localScopeName.get(), Optional.of(vs));

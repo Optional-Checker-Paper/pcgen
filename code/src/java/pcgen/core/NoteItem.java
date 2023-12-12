@@ -33,10 +33,10 @@ public final class NoteItem implements Cloneable
 	private String value;
 	private int id_parent;
 	private int id_value;
-	@SuppressWarnings("optional:optional.field") // optional-field
+	@SuppressWarnings("optional:optional.field") // style-optional-field
 	private final Optional<PCStringKey> key;
 
-	@SuppressWarnings("optional:optional.parameter") // optional-parameter
+	@SuppressWarnings("optional:optional.parameter") // style-optional-parameter
 	public NoteItem(Optional<PCStringKey> key, final int my_id, final int my_parent, final String aName, final String aValue)
 	{
 		this.key = key;

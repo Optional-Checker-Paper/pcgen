@@ -58,7 +58,7 @@ public class ModifyOtherLst extends AbstractNonEmptyToken<VarHolder>
 	}
 
 	//MODIFYOTHER:EQUIPMENT|GROUP=Martial|EqCritRange|ADD|1
-        @SuppressWarnings("optional:optional.null.comparison")  // optional-null-comparison
+        @SuppressWarnings("optional:optional.null.comparison")  // style-optional-null-comparison
 	@Override
 	public ParseResult parseNonEmptyToken(LoadContext context, VarHolder obj, String value)
 	{

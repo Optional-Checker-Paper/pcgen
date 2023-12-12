@@ -294,7 +294,7 @@ public class AbstractScopeFacet<IDT extends PCGenIdentifier, S, T> extends Abstr
 	 */
 	@SuppressWarnings({
 		"unchecked",
-		"optional:introduce.eliminate" // introduce-eliminate
+		"optional:introduce.eliminate" // style-introduce-eliminate
 	})
 	public void addScopeFacetChangeListener(int priority,
 		ScopeFacetChangeListener<? super IDT, ? super S, ? super T> listener)

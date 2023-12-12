@@ -9907,7 +9907,7 @@ public class PlayerCharacter implements Cloneable, VariableContainer
 	 * @return The value of a CodeControl, or the default value if the code control has
 	 *         not been set in the data
 	 */
-	@SuppressWarnings("optional:introduce.eliminate") // introduce-eliminate
+	@SuppressWarnings("optional:introduce.eliminate") // style-introduce-eliminate
 	public String getControl(CControl control)
 	{
 		ObjectKey<String> ok = ObjectKey.getKeyFor(String.class,

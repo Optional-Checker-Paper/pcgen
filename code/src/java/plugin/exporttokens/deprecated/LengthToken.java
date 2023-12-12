@@ -39,7 +39,7 @@ public class LengthToken extends AbstractExportToken
 	}
 
 	@Override
-	@SuppressWarnings("optional:introduce.eliminate") // introduce-eliminate
+	@SuppressWarnings("optional:introduce.eliminate") // style-introduce-eliminate
 	public String getToken(String tokenSource, CharacterDisplay display, ExportHandler eh)
 	{
 		String retString = "";

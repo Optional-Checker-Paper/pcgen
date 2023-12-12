@@ -176,7 +176,7 @@ public final class VariableUtilities
 	 *            The name of the variable for which the VariableID should be returned
 	 * @return The VariableID for the variable with the given name on the given object
 	 */
-	@SuppressWarnings("optional:method.invocation") // tp-get-empty
+	@SuppressWarnings("optional:method.invocation") // true positive: get
 	public static VariableID<?> getLocalVariableID(CharID id, VarScoped owner,
 		String name)
 	{

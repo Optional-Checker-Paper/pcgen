@@ -181,7 +181,7 @@ public class RegionFacet extends AbstractDataFacet<CharID, String>
 		return charRegion.orElse(getTemplateRegion(id).orElse(Region.NONE)).toString();
 	}
 
-	@SuppressWarnings("optional:optional.parameter") // optional-parameter
+	@SuppressWarnings("optional:optional.parameter") // style-optional-parameter
 	private Optional<Region> getTemplateRegion(CharID id)
 	{
 		return templateFacet.getSet(id)
@@ -207,7 +207,7 @@ public class RegionFacet extends AbstractDataFacet<CharID, String>
 	 * @return true if the Region of the Player Character represented by the
 	 *         given CharID matches the given Region; false otherwise.
 	 */
-	@SuppressWarnings("optional:introduce.eliminate") // introduce-eliminate
+	@SuppressWarnings("optional:introduce.eliminate") // style-introduce-eliminate
 	public boolean matchesRegion(CharID id, Region r)
 	{
 		return getRegion(id).orElse(Region.NONE)
@@ -255,7 +255,7 @@ public class RegionFacet extends AbstractDataFacet<CharID, String>
 	 *         represented by the given CharID; "NONE" if no SubRegion is set
 	 *         for the Player Character
 	 */
-	@SuppressWarnings("optional:optional.parameter") // optional-parameter
+	@SuppressWarnings("optional:optional.parameter") // style-optional-parameter
 	public Optional<String> getSubRegion(CharID id)
 	{
 		RegionCacheInfo rci = getInfo(id);
@@ -301,7 +301,7 @@ public class RegionFacet extends AbstractDataFacet<CharID, String>
 	 */
 	private static class RegionCacheInfo
 	{
-		@SuppressWarnings("optional:optional.field") // optional-field
+		@SuppressWarnings("optional:optional.field") // style-optional-field
 		public Optional<Region> cachedRegion = Optional.empty();
 
 		public Region region;
@@ -385,7 +385,7 @@ public class RegionFacet extends AbstractDataFacet<CharID, String>
 		updateRegion(dfce.getCharID());
 	}
 
-	@SuppressWarnings("optional:method.invocation") // tp-get-empty
+	@SuppressWarnings("optional:method.invocation") // true positive: get
 	private void updateRegion(CharID id)
 	{
 		RegionCacheInfo rci = getInfo(id);
