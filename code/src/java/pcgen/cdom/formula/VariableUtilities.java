@@ -176,7 +176,7 @@ public final class VariableUtilities
 	 *            The name of the variable for which the VariableID should be returned
 	 * @return The VariableID for the variable with the given name on the given object
 	 */
-	@SuppressWarnings("OptionalGetWithoutIsPresent") // intellij-suppression-optional-get-without-check-fp
+	@SuppressWarnings("OptionalGetWithoutIsPresent") // intellij-suppression-optional-get-without-check-tp
 	public static VariableID<?> getLocalVariableID(CharID id, VarScoped owner,
 												   String name)
 	{

@@ -121,7 +121,7 @@ public class GetOtherFunction implements FormulaFunction
 		}
 	}
 
-	@SuppressWarnings("OptionalGetWithoutIsPresent") // intellij-suppression-optional-get-without-check-fp
+	@SuppressWarnings("OptionalGetWithoutIsPresent") // intellij-suppression-optional-get-without-check-tp : true positive: ? most but not all calls to getLocalScopeName() are followed by a presence check.
 	@Override
 	public Object evaluate(EvaluateVisitor visitor, Node[] args, EvaluationManager manager)
 	{

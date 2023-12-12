@@ -128,7 +128,7 @@ public class GroupFunction implements FormulaFunction
 		LoadContext context = manager.get(ManagerKey.CONTEXT);
 		PCGenScope scope = context.getVariableContext().getScope(scopeName);
 		//Was checked in allowArgs
-		@SuppressWarnings({"unchecked", "OptionalGetWithoutIsPresent"}) // intellij-suppression-optional-get-without-check-fp
+		@SuppressWarnings({"unchecked", "OptionalGetWithoutIsPresent"}) // intellij-suppression-optional-get-without-check-fp : call sequencing, the value of scope.getFormatManager(context) is checked for empty earlier (see lines 96 to 101 of this file in the method allowArgs).
 		ReferenceManufacturer<? extends PCGenScoped> refMfg =
 				(ReferenceManufacturer<? extends PCGenScoped>) scope
 					.getFormatManager(context).get();

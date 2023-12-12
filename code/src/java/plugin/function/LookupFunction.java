@@ -75,7 +75,7 @@ public class LookupFunction implements FormulaFunction
 		return false;
 	}
 
-	@SuppressWarnings("OptionalGetWithoutIsPresent") // intellij-suppression-optional-get-without-check-fp
+	@SuppressWarnings("OptionalGetWithoutIsPresent") // intellij-suppression-optional-get-without-check-fp : the underlying value wrapped in the optional cf.getComponentManager().get() is never null (the optional will always be present).
 	@Override
 	public FormatManager<?> allowArgs(SemanticsVisitor visitor, Node[] args, FormulaSemantics semantics)
 	{
