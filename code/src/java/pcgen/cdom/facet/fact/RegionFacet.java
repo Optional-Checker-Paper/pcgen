@@ -181,7 +181,6 @@ public class RegionFacet extends AbstractDataFacet<CharID, String>
 		return charRegion.orElse(getTemplateRegion(id).orElse(Region.NONE)).toString();
 	}
 
-	@SuppressWarnings("optional:optional.parameter") // style-optional-parameter
 	private Optional<Region> getTemplateRegion(CharID id)
 	{
 		return templateFacet.getSet(id)
@@ -255,7 +254,6 @@ public class RegionFacet extends AbstractDataFacet<CharID, String>
 	 *         represented by the given CharID; "NONE" if no SubRegion is set
 	 *         for the Player Character
 	 */
-	@SuppressWarnings("optional:optional.parameter") // style-optional-parameter
 	public Optional<String> getSubRegion(CharID id)
 	{
 		RegionCacheInfo rci = getInfo(id);
