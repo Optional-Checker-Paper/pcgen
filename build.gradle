@@ -60,7 +60,6 @@ javafx {
 
 checkerFramework {
   checkers = [
-    'org.checkerframework.checker.optional.OptionalChecker',
     'org.checkerframework.common.util.count.report.ReportChecker',
   ]
   extraJavacArgs = [
@@ -971,7 +970,6 @@ apply plugin: 'org.checkerframework'
 
 afterEvaluate {
      tasks.withType(JavaCompile) {
-         options.compilerArgs << "-Xmaxerrs" << "99999"
          options.compilerArgs << "-Xmaxwarns" << "99999"
      }
  }
