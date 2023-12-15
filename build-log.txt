@@ -25,7 +25,7 @@ JavaFX SDK already exists at /tmp/experiments/optional-paper-counts-repos/pcgen/
 > Task :downloadJavaFXModules UP-TO-DATE
 
 > Task :compileJava
-Args for for compileJava are [-AsuppressWarnings=type.anno.before.modifier,type.anno.before.decl.anno, -AassumePure, -AwarnUnneededSuppressions, -AassumeAssertionsAreEnabled, -AReportChecker_warns, -Astubs=/tmp/experiments/optional-paper-counts-repos/pcgen/reportoptional.astub, -Xmaxwarns, 99999]
+Args for for compileJava are [-AsuppressWarnings=type.anno.before.modifier,type.anno.before.decl.anno, -AassumePure, -AwarnUnneededSuppressions, -AassumeAssertionsAreEnabled, -AReportChecker_warns, -Xmaxwarns, 99999, -Astubs=/tmp/experiments/optional-paper-counts-repos/pcgen/reportoptional.astub, -Xmaxwarns, 99999]
 /tmp/experiments/optional-paper-counts-repos/pcgen/code/src/java/pcgen/core/Race.java:102: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
 	public Optional<String> getLocalScopeName()
 	                        ^
@@ -3134,5 +3134,5 @@ Note: Recompile with -Xlint:unchecked for details.
 > Task :distZip
 > Task :assemble
 
-BUILD SUCCESSFUL in 1m 38s
+BUILD SUCCESSFUL in 1m 31s
 77 actionable tasks: 77 executed
