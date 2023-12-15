@@ -19,7 +19,6 @@ package pcgen.core;
 
 import java.util.Optional;
 
-import org.checkerframework.checker.optional.qual.Present;
 import pcgen.base.formula.base.VarScoped;
 import pcgen.cdom.base.NonInteractive;
 import pcgen.cdom.base.SortKeyRequired;
@@ -28,7 +27,7 @@ import pcgen.cdom.enumeration.StringKey;
 public final class PCCheck extends PObject implements NonInteractive, SortKeyRequired, VarScoped
 {
 	@Override
-	public @Present Optional<String> getLocalScopeName()
+	public Optional<String> getLocalScopeName()
 	{
 		return Optional.of("PC.SAVE");
 	}

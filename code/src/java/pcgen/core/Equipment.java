@@ -40,7 +40,6 @@ import java.util.regex.Pattern;
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 
-import org.checkerframework.checker.optional.qual.Present;
 import pcgen.base.formula.Formula;
 import pcgen.base.lang.StringUtil;
 import pcgen.base.util.FixedStringList;
@@ -6090,7 +6089,7 @@ public final class Equipment extends PObject
 	}
 
 	@Override
-	public @Present Optional<String> getLocalScopeName()
+	public Optional<String> getLocalScopeName()
 	{
 		return Optional.of("PC.EQUIPMENT");
 	}
