@@ -383,7 +383,7 @@ public class RegionFacet extends AbstractDataFacet<CharID, String>
 		updateRegion(dfce.getCharID());
 	}
 
-	@SuppressWarnings("optional:method.invocation") // true positive: get
+	@SuppressWarnings("optional:method.invocation") // true positive: if body can be executed while newRegion is not present
 	private void updateRegion(CharID id)
 	{
 		RegionCacheInfo rci = getInfo(id);
